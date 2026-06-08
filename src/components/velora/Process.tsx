@@ -7,25 +7,25 @@ const steps = [
 
 export function Process() {
   return (
-    <section id="process" className="py-20 md:py-24 bg-charcoal text-cream">
+    <section id="process" className="py-16 md:py-20 bg-charcoal text-cream">
       <div className="max-w-[1400px] mx-auto px-6 md:px-12">
-        <div className="flex items-center gap-4 mb-8">
+        <div className="flex items-center gap-4 mb-6">
           <span className="w-10 h-px bg-cream/40" />
           <span className="text-[10px] tracking-luxe uppercase text-cream/60">The Process</span>
         </div>
-        <h2 className="font-display text-5xl md:text-7xl leading-[1.05] tracking-[-0.02em] max-w-4xl mb-16">
+        <h2 className="font-display text-4xl md:text-5xl leading-[1.04] tracking-[-0.02em] max-w-3xl mb-10 md:mb-12">
           A <em className="font-script text-cream/90 not-italic inline-block mx-2">considered</em> path from first idea to finished site.
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-cream/10">
           {steps.map((s, i) => (
-            <div key={i} className="group bg-charcoal p-10 md:p-12 hover:bg-wine/40 transition-colors duration-700">
-              <div className="font-display text-7xl md:text-8xl text-cream/15 group-hover:text-cream/40 transition-colors duration-700 mb-8">
+            <div key={i} className="group bg-charcoal p-7 md:p-8 hover:bg-wine/40 transition-colors duration-700">
+              <div className="font-display text-6xl md:text-7xl text-cream/15 group-hover:text-cream/40 transition-colors duration-700 mb-6">
                 {String(i + 1).padStart(2, "0")}
               </div>
-              <div className="h-px w-12 bg-cream/30 mb-6 origin-left group-hover:w-24 group-hover:bg-cream transition-all duration-700" />
-              <h3 className="font-display text-3xl text-cream mb-5">{s.t}</h3>
-              <p className="text-cream/65 leading-relaxed text-[15px]">{s.d}</p>
+              <div className="h-px w-12 bg-cream/30 mb-5 origin-left group-hover:w-20 group-hover:bg-cream transition-all duration-700" />
+              <h3 className="font-display text-2xl md:text-[2rem] text-cream mb-4">{s.t}</h3>
+              <p className="text-cream/65 leading-7 text-sm md:text-[15px] max-w-[30ch]">{s.d}</p>
             </div>
           ))}
         </div>
