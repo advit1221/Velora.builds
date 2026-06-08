@@ -7,7 +7,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="flex items-center justify-center gap-4 mb-6 reveal">
             <span className="w-10 md:w-12 h-px bg-burgundy/60" />
-            <span className="text-[10px] tracking-luxe uppercase text-burgundy">Creative Web Studio</span>
+            <span className="text-[10px] tracking-luxe uppercase text-burgundy">Website Design Agency</span>
             <span className="w-10 md:w-12 h-px bg-burgundy/60" />
           </div>
           <h1 className="reveal delay-1 font-display text-[40px] sm:text-5xl lg:text-[76px] leading-[0.96] tracking-[-0.03em] text-charcoal max-w-5xl mx-auto">
