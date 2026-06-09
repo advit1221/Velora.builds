@@ -16,7 +16,7 @@ export function CTA() {
         <h2 className="font-display text-4xl md:text-6xl leading-[1.02] tracking-[-0.02em] max-w-4xl mx-auto">
           Ready to build something
           <br />
-          <em className="font-script text-cream text-[1.08em] block mt-2">remarkable</em>?
+          <em className="font-script text-cream text-[1.08em] block mt-2">remarkable?</em>
         </h2>
         <p className="mt-5 max-w-lg mx-auto text-cream/75 text-base md:text-lg leading-7">
           Whether you are launching something new or rethinking your current presence, we are always interested in ambitious ideas and meaningful projects.
@@ -28,8 +28,8 @@ export function CTA() {
           </a>
         </div>
         <div className="mt-4">
-          <a href="mailto:hello@velora.studio" className="text-[11px] tracking-luxe uppercase text-cream/60 hover:text-cream border-b border-cream/30 hover:border-cream pb-1 transition-colors">
-            hello@velora.studio
+          <a href="mailto: hello.velorabuilds@gmail.com" className="text-[11px] tracking-luxe uppercase text-cream/60 hover:text-cream border-b border-cream/30 hover:border-cream pb-1 transition-colors">
+            hello.velorabuilds@gmail.com
           </a>
         </div>
       </div>
