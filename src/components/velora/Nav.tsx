@@ -1,4 +1,4 @@
-contact
+
 export function Nav() {
   return (
     <header className="fixed top-0 inset-x-0 z-50 backdrop-blur-md bg-ivory/75 border-b border-border/50">
