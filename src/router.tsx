@@ -4,7 +4,9 @@ import {
   createRouter,
   Outlet,
 } from "@tanstack/react-router";
+
 import { Home } from "@/pages/Home";
+import ContactPage from "@/components/velora/Inquiry";
 
 const rootRoute = createRootRoute({
   component: () => <Outlet />,
@@ -16,9 +18,20 @@ const indexRoute = createRoute({
   component: Home,
 });
 
-const routeTree = rootRoute.addChildren([indexRoute]);
+const inquiryRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/inquiry",
+  component: ContactPage,
+});
 
-export const router = createRouter({ routeTree });
+const routeTree = rootRoute.addChildren([
+  indexRoute,
+  inquiryRoute,
+]);
+
+export const router = createRouter({
+  routeTree,
+});
 
 declare module "@tanstack/react-router" {
   interface Register {
