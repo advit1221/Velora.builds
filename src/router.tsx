@@ -6,7 +6,7 @@ import {
 } from "@tanstack/react-router";
 
 import { Home } from "@/pages/Home";
-import ContactPage from "@/components/velora/Inquiry";
+import ContactPage from "@/components/velora/inquiry";
 
 const rootRoute = createRootRoute({
   component: () => <Outlet />,
